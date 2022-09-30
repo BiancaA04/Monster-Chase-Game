@@ -9,9 +9,10 @@ public class Monster : MonoBehaviour
 
     private Rigidbody2D myBody;
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         myBody = GetComponent<Rigidbody2D>();
+
     }
 
     // Update is called once per frame
