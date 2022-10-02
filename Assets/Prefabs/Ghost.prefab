@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8554838194102551378}
   - component: {fileID: 8554838194102551379}
   - component: {fileID: 8554838194102551388}
-  - component: {fileID: 8554838194102551389}
+  - component: {fileID: -4328241173318974562}
   - component: {fileID: 7532010045109026078}
   m_Layer: 6
   m_Name: Ghost
@@ -29,8 +29,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8554838194102551390}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.642926, y: -0.41, z: -0.68}
-  m_LocalScale: {x: 0.973028, y: 0.9970484, z: 0.9266934}
+  m_LocalPosition: {x: -9.642926, y: -0.6, z: -0.68}
+  m_LocalScale: {x: 0.71392876, y: 0.6400064, z: 0.21904299}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -129,8 +129,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!61 &8554838194102551389
-BoxCollider2D:
+--- !u!70 &-4328241173318974562
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -139,22 +139,12 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.93, y: 2.2}
-    newSize: {x: 0.93, y: 2.2}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.93, y: 2.2}
-  m_EdgeRadius: 0
+  m_Size: {x: 0.92999995, y: 2.2}
+  m_Direction: 0
 --- !u!114 &7532010045109026078
 MonoBehaviour:
   m_ObjectHideFlags: 0

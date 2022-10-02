@@ -524,7 +524,7 @@ GameObject:
   - component: {fileID: 1300116897}
   m_Layer: 5
   m_Name: 0
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -546,7 +546,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -325, y: -150}
+  m_AnchoredPosition: {x: -325, y: -155}
   m_SizeDelta: {x: 341, y: 341}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1300116897
@@ -657,7 +657,7 @@ GameObject:
   - component: {fileID: 1300478511}
   m_Layer: 5
   m_Name: 1
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -679,7 +679,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 325, y: -150}
+  m_AnchoredPosition: {x: 325, y: -155}
   m_SizeDelta: {x: 341, y: 341}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1300478511
@@ -812,7 +812,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 209, y: -205}
-  m_SizeDelta: {x: 485, y: 440}
+  m_SizeDelta: {x: 493, y: 446}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1600226133
 MonoBehaviour:
@@ -881,7 +881,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d06b2d272b224b2409ef5c1f0eb0d656, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characters: []
+  characters:
+  - {fileID: 1462877104379150060, guid: 3e6398c2d932f6e4fb230d1146c5504f, type: 3}
+  - {fileID: 5960653211656993553, guid: 87b43e79a9f64074e98ecaf0afcd3324, type: 3}
 --- !u!4 &1618618745
 Transform:
   m_ObjectHideFlags: 0
@@ -932,7 +934,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 113, y: 386}
+  m_AnchoredPosition: {x: 97, y: 373}
   m_SizeDelta: {x: 1550, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1745007070
